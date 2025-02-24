@@ -137,11 +137,7 @@ Our implementation of the **Google Toolkit**, specifically the **Gemini API** an
 ---
 
 ## 🔑 Setting Up Gemini API Key
-To enable the **Gemini API** for product assessments, define your **API key** in `app.py`. Open `app.py` and add your Gemini API key as follows:
-```python
-API_KEY = "your-gemini-api-key-here"
-```
-Replace `"your-gemini-api-key-here"` with your actual **Gemini API key** to enable API calls.
+To enable the **Gemini API** for product assessments, save your Gemini API key in the project root directory as **API_KEY.txt**.
 
 ---
 
