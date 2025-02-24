@@ -9,3 +9,4 @@ __pycache__/
 # Other files
 *.log
 *.sqlite
+API_KEY
