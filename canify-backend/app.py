@@ -6,7 +6,7 @@ from google import genai
 
 # Read API_KEY and save as API_KEY
 with open("API_KEY.txt", "r") as file:
-    API_KEY = file.read()
+    API_KEY = file.readline().rstrip()
 
 client = genai.Client(api_key=API_KEY)
 
