@@ -9,4 +9,4 @@ __pycache__/
 # Other files
 *.log
 *.sqlite
-canify-backend/API_KEY
+API_KEY
