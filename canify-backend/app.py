@@ -1,5 +1,3 @@
-import os
-
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from google import genai
@@ -15,10 +13,6 @@ app = Flask(__name__)
 
 # Allow all origins for testing
 CORS(app, supports_credentials=True)
-
-# Create data directory if it doesn't exist
-DATA_DIR = os.path.join(os.path.dirname(__file__), "cart_data")
-os.makedirs(DATA_DIR, exist_ok=True)
 
 
 @app.route("/api/cart-data", methods=["POST", "OPTIONS"])
