@@ -5,9 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
 
-GEMINI_SERVICE_URL = (
-    "http://localhost:3000/api/gemini"  # Update with your gemini.js service URL
-)
+GEMINI_SERVICE_URL = "https://dcf81f78eccf2620fcd1afc2787e1d0562e607b7-3000.dstack-prod5.phala.network/api/gemini"  # Update with your gemini.js service URL
 
 
 @app.route("/api/cart-data", methods=["POST", "OPTIONS"])
@@ -62,4 +60,3 @@ def receive_cart_data():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
-

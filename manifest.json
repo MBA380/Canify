@@ -31,7 +31,8 @@
     "http://localhost:5000/*",
     "http://127.0.0.1:5000/*",
     "http://10.0.0.51:3000/*",
-    "http://localhost:3000/*"
+    "http://localhost:3000/*",
+    "https://dcf81f78eccf2620fcd1afc2787e1d0562e607b7-3000.dstack-prod5.phala.network"
   ],
   "content_scripts": [{
     "matches": [
