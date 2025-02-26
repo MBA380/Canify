@@ -29,7 +29,9 @@
     "*://*.bestbuy.ca/*",
     "*://*.shopify.com/*",
     "http://localhost:5000/*",
-    "http://127.0.0.1:5000/*"
+    "http://127.0.0.1:5000/*",
+    "http://10.0.0.51:3000/*",
+    "http://localhost:3000/*"
   ],
   "content_scripts": [{
     "matches": [
