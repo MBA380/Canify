@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.head.appendChild(style);
 });
 
-const BACKEND_URL = 'http://localhost:5000/api/cart-data';
+const BACKEND_URL = 'http://localhost:5000/api/cart';
 
 function scanPage() {
     const resultsDiv = document.getElementById('results');

@@ -8,7 +8,7 @@ CORS(app, supports_credentials=True)
 GEMINI_SERVICE_URL = "https://dcf81f78eccf2620fcd1afc2787e1d0562e607b7-3000.dstack-prod5.phala.network/api/gemini"  # Update with your gemini.js service URL
 
 
-@app.route("/api/cart-data", methods=["POST", "OPTIONS"])
+@app.route("/api/cart", methods=["POST", "OPTIONS"])
 def receive_cart_data():
     if request.method == "OPTIONS":
         response = jsonify({"status": "success"})
